@@ -1,0 +1,26 @@
+/** Footer **/
+
+.site-footer {
+    margin-top: 10rem;
+    border-top: .1rem solid #e1e1e1;
+}
+
+.grid-footer {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.navigation-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.rights-footer {
+    background-color: #33596e;
+    margin-top: 3em;
+    padding: .5em 0;
+    text-align: center;
+    color: white;
+}

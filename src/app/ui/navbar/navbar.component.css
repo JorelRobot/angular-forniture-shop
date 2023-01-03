@@ -1,0 +1,19 @@
+/** Header and navegation **/
+.site-name {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.site-name span {
+    color: #037bc0;
+}
+
+.container-navigation {
+    border-top: .1rem solid #e1e1e1;
+}
+
+.main-navigation {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}

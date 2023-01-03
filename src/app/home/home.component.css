@@ -1,0 +1,22 @@
+.about-us {
+    /* background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #037bc0 50%, #037bc0 100%),
+        url(../img/nosotros.jpg); */
+    background-color: rgb(16, 105, 163);
+    background-position: left center;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    margin-top: 5rem;
+}
+
+.about-us-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8rem;
+}
+
+.about-us-text {
+    grid-column: 2 / 3;
+    color: white;
+}

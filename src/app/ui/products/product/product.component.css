@@ -1,0 +1,22 @@
+.product {
+    background-color: #037bc0;
+}
+
+.product-text {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+.texto-producto h3 {
+    margin: 0;
+}
+
+.texto-producto p {
+    margin: 0 0 .5rem 0;
+}
+
+.product-text .price {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
