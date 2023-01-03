@@ -10,6 +10,12 @@ import { NavbarComponent } from './ui/navbar/navbar.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { ProductsComponent } from './ui/products/products.component';
 import { ProductComponent } from './ui/products/product/product.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ShopComponent } from './shop/shop.component';
+import { BlogComponent } from './blog/blog.component';
+import { ArticleComponent } from './blog/article/article.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +26,13 @@ import { ProductComponent } from './ui/products/product/product.component';
     CategoryComponent,
     FooterComponent,
     ProductsComponent,
-    ProductComponent
+    ProductComponent,
+    AboutUsComponent,
+    ShopComponent,
+    BlogComponent,
+    ArticleComponent,
+    GalleryComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

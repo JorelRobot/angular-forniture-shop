@@ -1,0 +1,27 @@
+.entry {
+    border-bottom: 2px solid #e1e1e1;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+.entry:last-of-type {
+    border: none;
+}
+
+.meta-entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meta-entry p {
+    font-weight: 700;
+}
+
+.meta-entry span {
+    color: #037bc0;
+}
+
+.entry-content {
+    width: 60rem;
+    margin: 0 auto;
+}

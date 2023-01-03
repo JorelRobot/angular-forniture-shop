@@ -1,0 +1,39 @@
+.form {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.form fieldset {
+    border: .1rem solid #939393;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 5rem 10rem;
+}
+
+.form legend {
+    border-radius: .5rem;
+    background-color: #037bc0;
+    color: white;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .5rem 0;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    flex-basis: 15rem;
+}
+
+.form-group input:not([type="radio"]),
+.form-group textarea,
+.form-group select {
+    flex: 1;
+    border: .1rem solid #939393;
+    border-radius: .3rem;
+    padding: 1rem;
+}

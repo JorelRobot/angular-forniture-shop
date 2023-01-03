@@ -1,0 +1,84 @@
+<main class="main-content container">
+    <h2 class="text-center">Conatct us</h2>
+
+    <form class="form">
+        <fieldset>
+            <legend>Your information</legend>
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input id="name" type="text" placeholder="Your name here">
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject: </label>
+                <input id="subject" type="text" placeholder="The subject here">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input id="email" type="email" placeholder="The email here">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone: </label>
+                <input id="phone" type="tel" placeholder="The numbre phone here">
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject: </label>
+                <input id="subject" type="text" placeholder="The subject here">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message: </label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Location</legend>
+
+            <div class="form-group">
+                <label for="country">Country: </label>
+                <select id="country">
+                    <option value="">-- Choose an option --</option>
+                    <option value="MX">Mexico</option>
+                    <option value="PR">Peru</option>
+                    <option value="CO">Colombia</option>
+                    <option value="ES">España</option>
+                    <option value="CH">Chile</option>
+                    <option value="AG">Argentina</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Extra information</legend>
+
+            <div class="form-group">
+                <label for="client">Client: </label>
+                <input id="client" type="radio" name="type" value="client">
+            </div>
+
+            <div class="form-group">
+                <label for="provider">Provider: </label>
+                <input id="provider" type="radio" name="type" value="provider">
+            </div>
+
+            <div class="form-group">
+                <label for="categories">Category you are looking for: </label>
+                <input list="categories" name="categories">
+                <datalist id="categories">
+                    <option value="Kitchens">Kitchens</option>
+                    <option value="Exteriors">Exteriors</option>
+                    <option value="Bedrooms">Bedrooms</option>
+                    <option value="Offices">Offices</option>
+                    <option value="Livingrooms">Livingrooms</option>
+                </datalist>
+            </div>
+        </fieldset>
+
+        <button class="btn" type="submit">Send information</button>
+    </form>
+
+</main>
