@@ -11,6 +11,7 @@ import { ArticleComponent } from './blog/article/article.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { UIModule } from './ui/ui.module';
+import { EntryComponent } from './blog/entry/entry.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UIModule } from './ui/ui.module';
     BlogComponent,
     ArticleComponent,
     GalleryComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    EntryComponent
   ],
   imports: [
     BrowserModule,
