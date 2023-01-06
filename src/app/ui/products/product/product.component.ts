@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-product',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ProductComponent {
 
+  @Input()
+  imageUrl: string = 'https://github.com/JorelRobot/forniture-shop/blob/main/img/producto1.jpg?raw=true';
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-category',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class CategoryComponent {
 
+  @Input()
+  imageUrl: string = 'https://github.com/JorelRobot/forniture-shop/blob/main/img/categoria1.jpg?raw=true';
 }
